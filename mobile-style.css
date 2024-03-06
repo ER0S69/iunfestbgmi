@@ -1,0 +1,12 @@
+
+@media (max-width: 480px) {
+    h1{
+        font-size: 23px;
+    }
+    h1, h3, ul, ol, p{
+        margin: 20px 35px;
+    }
+    ol, ul {
+        margin: 20px calc(35px + 1ch);
+    }
+}

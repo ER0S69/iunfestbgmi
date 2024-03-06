@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+}
+
+body {
+    background-color: rgb(206, 206, 206);
+}
+
+.marquee {
+    left: 50%;
+    text-align: center;
+    width: 40vw;
+    margin: auto;
+    margin-bottom: 30px;
+}
+marquee{
+    font-weight: 600;
+}
+
+h1,
+h3,
+ul,
+ol,
+p {
+    margin: 15px 45px;
+}
+
+ol,
+ul {
+    margin: 15px calc(45px + 1ch);
+}
+
+li {
+    margin: 10px;
+}
+
+p,
+u {
+    font-weight: 550;
+}
+
+h1 {
+    text-decoration: underline;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+mark {
+    font-weight: 600;
+    background-color: rgb(255 230 0);
+}

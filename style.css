@@ -6,6 +6,9 @@
     font-weight: 400;
     font-optical-sizing: auto;
 }
+html{
+    height: 100dvh;
+}
 
 body {
     background-color: rgb(206, 206, 206);
@@ -57,4 +60,30 @@ h3 {
 mark {
     font-weight: 600;
     background-color: rgb(255 230 0);
+}
+footer{
+    padding: 15px 45px;
+    background-color: black;
+    color: white;
+}
+footer p{
+    margin: 15px 0;
+}
+
+footer a:link{
+    color: rgb(43, 173, 43);
+}
+footer a:visited{
+    color: rgb(35, 143, 35);
+}
+footer a:hover{
+    color: rgb(35, 143, 35);
+}
+footer a:active{
+    color: rgb(255, 0, 0);
+}
+
+
+.last-date-of-registration{
+    width: 75vw;    
 }

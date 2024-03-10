@@ -2,6 +2,9 @@
     h1 {
         font-size: 23px;
     }
+    .marquee {
+        width: 60vw;
+    }
 
     .container {
         width: 75vw;
